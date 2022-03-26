@@ -1,0 +1,252 @@
+* {
+  font-family: "Plus Jakarta Sans";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+section {
+  padding: 50px;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  opacity: 0.8;
+  transition: 500ms ease-in-out;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
+nav .logo {
+  display: flex;
+}
+
+nav .logo h1 {
+  font-weight: 800;
+  font-size: 4vmin;
+  margin-top: 14px;
+}
+
+nav .logo img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 600px;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: #56ab91;
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header img {
+  width: 100%;
+  margin-top: 60px;
+  opacity: 0.9;
+  transition: 500ms ease-in-out;
+}
+
+.header img:hover {
+  opacity: 1;
+}
+
+.header h1 {
+  text-align: center;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 7vmin;
+}
+
+.header h1 span {
+  color: rgb(255, 52, 52);
+  transition: 500ms ease-in-out;
+}
+
+.header h1 span:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+/* keanggotaan */
+#anggota {
+  display: grid;
+  justify-content: center;
+}
+
+#anggota h2 {
+  font-size: 4vmin;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#anggota .teks {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 2fr 2fr;
+}
+
+#anggota .teks1 {
+  margin-right: 30px;
+}
+
+#anggota .teks1 h3 {
+  font-size: 3.5vmin;
+}
+
+#anggota .teks2 {
+  margin-left: 30px;
+}
+
+#anggota .teks2 h3 {
+  font-size: 3.5vmin;
+}
+
+#anggota button {
+  border: 0;
+  background-color: #181b1b;
+  color: #fff;
+  padding: 8px 40px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: 15px;
+  transition: 500ms ease-in-out;
+}
+
+#anggota button:hover {
+  cursor: pointer;
+  background-color: #343636;
+  transform: scale(0.95);
+}
+
+/* mulai tim */
+#mulaiTim {
+  background-color: #91baad;
+  color: #fff;
+  text-align: center;
+}
+
+#mulaiTim .container {
+  padding: 50px 250px;
+}
+
+#mulaiTim .container h2 {
+  margin-bottom: 50px;
+  font-size: 4vmin;
+}
+
+#mulaiTim .container hr {
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+
+#mulaiTim .container p {
+  margin-bottom: 50px;
+  font-size: 2.5vmin;
+}
+
+#mulaiTim button {
+  border: 0;
+  background-color: #181b1b;
+  color: #fff;
+  padding: 8px 50px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: 500ms ease-in-out;
+}
+
+#mulaiTim button:hover {
+  cursor: pointer;
+  background-color: #343636;
+  transform: scale(0.95);
+}
+
+/* footer */
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  width: 100%;
+  background-color: #56ab91;
+  justify-content: space-evenly;
+  color: #fff;
+  font-size: 2.5vmin;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+footer ul li p {
+  color: #f0f0f0;
+}
+
+footer .logo {
+  text-align: center;
+}
+
+footer .logo img {
+  border-radius: 50%;
+}
+
+footer .dukungkami button {
+  background: none;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: none;
+  background-color: #181b1b;
+  border-radius: 20px;
+  transition: 500ms ease-in-out;
+}
+
+footer .dukungkami button:hover {
+  cursor: pointer;
+  background-color: #242727;
+  transform: scale(0.95);
+}
+
+/* responsive */
