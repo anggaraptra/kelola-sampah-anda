@@ -1,4 +1,4 @@
-# Kelola Sampah Anda
+# KELOLA SAMPAH ANDA
 
 Responsive : process
 
