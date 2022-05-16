@@ -16,10 +16,10 @@
   <body id="home">
     <!-- navbar -->
     <nav>
-      <div class="logo">
+      <a href="#" class="logo">
         <img src="img/logo 1.png" alt="" />
         <h1>KELOLA SAMPAH ANDA</h1>
-      </div>
+      </a>
 
       <ul>
         <li><a href="#tentangKami">Tentang Kami</a></li>
@@ -27,6 +27,13 @@
         <li><a href="#galeri">Galeri</a></li>
         <li><a href="#hubungiKami">Hubungi Kami</a></li>
       </ul>
+
+      <div class="menu-toggle">
+        <input type="checkbox" name="" id="" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
 
     <!-- header -->
@@ -182,12 +189,17 @@
               cara mendonasi kami
             </p>
           </li>
-          <li><button>Donate</button></li>
+          <li>
+            <a href="">
+              <button>Donate</button>
+            </a>
+          </li>
         </ul>
       </div>
     </footer>
 
-    <!-- script lightgallery -->
+    <!-- script -->
+    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
     <script>
       lightGallery(document.querySelector(".galeri"));
